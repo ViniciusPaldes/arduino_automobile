@@ -1,6 +1,6 @@
 # Code for driving an Arduino Card
 
-##Summary:
+## Summary:
 This documentation covers these items listed below:
 
 * [Features](#features)
@@ -9,21 +9,21 @@ This documentation covers these items listed below:
 * [How to configure Wheels](#how-to-configure-wheels)
 * [Cables](#cables)
  
-##Features:
+## Features:
 - Go Forward and Backward
 - Turn right and left without differential
 - Avoid wall hits and turn
 
-##Under development:
+## Under development:
 - Bluetooth
 
-##LCD Parallel Sequency
+## LCD Parallel Sequency
 -Verde Vazio Branco Preto Roxo Azul Verde Amarelo Laranja Vermelho (Acima Laranja)
 -marrom vermelho laranja amarelo
 -rxd    txd      gnd     5v
 -txd   rxd    -   +
 
-##How to configure Wheels
+## How to configure Wheels
 Search for `acelerar()` function
 ```
  digitalWrite(MT_IN_1, LOW);  // 1st
@@ -40,7 +40,7 @@ Search for `acelerar()` function
 - Back left: 1st, 3rt and 4th HIGH, 2nd LOW
 - Back right: 1st, 2nd and 4th HIGH, 3nd LOW
 
-##Cables
+## Cables
 
 Configure the right digital port for each Motor.
 
